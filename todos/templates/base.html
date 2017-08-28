@@ -5,12 +5,12 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
-<body>
+<body class="body">
     <div class="page-header">
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus">Add</span></a>
-        <h2><a href="/">ToDo App(List Your Task)</a></h2>
+        <a href="{% url 'add' %}" class="top-menu"><span type="button" class="btn btn-primary btn-lg">Add</span></a>
+        <h1><a href="/">ToDo App(List Your Task)</a></h1>
     </div>
     <div class="content container">
         <div class="row">
