@@ -2,8 +2,18 @@
 
 {% block content %}
     <h1>New Task</h1>
-    <form method="POST" class="post-form"> {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-defalt">Save</button>
+    <form method="POST" class="post-form" action="{% url 'add %}"> {% csrf_token %}
+
+        <div class="form-group">
+            <label for="text">Title</label>
+            <input type="text" class="form-control" name="title" id="title" />
+        </div>
+
+        <div class="form-group">
+            <label for="text">Text</label>
+            <textarea class="form-control" rows="5" name="title" id="text"></textarea>
+        </div>
+
+        <button type="submit" value="submit" class="save btn btn-defalt">Save</button>
     </form>
 {% endblock %}s
