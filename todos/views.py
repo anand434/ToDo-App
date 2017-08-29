@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from .models import Todo
 
@@ -13,9 +13,9 @@ def task(request):
 
 
 def details(request, id):
-    todo = Todo.object.get(id=id)
+    todos = get_object_or_404(Todo, id=id)
     context = {
-        'todo': todo
+        'todo': todos
     }
     return render(request, 'details.html', context)
 

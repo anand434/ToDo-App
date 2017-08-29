@@ -2,8 +2,8 @@
 
 {% block content %}
     <h1>New Task</h1>
-    <form method="POST" class="post-form">
+    <form method="POST" class="post-form"> {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-defalt">Save</button>
     </form>
-{% endblock %}
+{% endblock %}s
