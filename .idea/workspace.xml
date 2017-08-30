@@ -4,10 +4,6 @@
     <list default="true" id="0250c015-80e3-4124-9fe6-f5a345e038d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo/urls.py" afterPath="$PROJECT_DIR$/todo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/templates/add.html" afterPath="$PROJECT_DIR$/todos/templates/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/templates/details.html" afterPath="$PROJECT_DIR$/todos/templates/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/urls.py" afterPath="$PROJECT_DIR$/todos/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/views.py" afterPath="$PROJECT_DIR$/todos/views.py" />
     </list>
     <ignored path="todo.iws" />
@@ -40,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todos/templates/details.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -50,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -123,9 +119,9 @@
         <option value="$PROJECT_DIR$/todos/forms.py" />
         <option value="$PROJECT_DIR$/todo/urls.py" />
         <option value="$PROJECT_DIR$/todos/templates/add.html" />
-        <option value="$PROJECT_DIR$/todos/views.py" />
         <option value="$PROJECT_DIR$/todos/urls.py" />
         <option value="$PROJECT_DIR$/todos/templates/details.html" />
+        <option value="$PROJECT_DIR$/todos/views.py" />
       </list>
     </option>
   </component>
@@ -443,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504032979813</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="views : add fixed">
+      <created>1504114578901</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504114578901</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -485,7 +488,8 @@
     <MESSAGE value="form added" />
     <MESSAGE value="forms + details" />
     <MESSAGE value="some issue with views : add" />
-    <option name="LAST_COMMIT_MESSAGE" value="some issue with views : add" />
+    <MESSAGE value="views : add fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="views : add fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -794,6 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,16 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -840,6 +835,16 @@
         <state relative-caret-position="68">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

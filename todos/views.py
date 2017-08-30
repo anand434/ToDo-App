@@ -26,7 +26,7 @@ def add(request):
         txt = request.POST["text"]
 
         # push into sqlite3
-        todo = Todo(title=tle, text=txt)
+        todo = Todo(title=title, text=txt)
         todo.save()
         return redirect('/')
     else:
