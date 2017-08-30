@@ -22,12 +22,12 @@ def details(request, id):
 def add(request):
     if request.method == 'POST':
         # get the data
-        title = request.POST['title']
-        text = request.POST['text']
+        title = request.POST["title"]
+        txt = request.POST["text"]
 
         # push into sqlite3
-        todo = Todo(title=title, text=text)
+        todo = Todo(title=tle, text=txt)
         todo.save()
-        return redirect('/todos')
+        return redirect('/')
     else:
         return render(request, 'add.html')
